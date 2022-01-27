@@ -1,0 +1,16 @@
+Creat the docker files of the 
+Backend     Admin React 
+DataBase    posrgress or mongoDb
+Front end 
+
+
+coneect the  together
+For mongos Data Base in a container
+https://hub.docker.com/_/mongo-express
+
+
+
+docker compose up -d 
+
+For going inside a docker image 
+docker exec -i -t 69aa0e0e1b1f  bash
