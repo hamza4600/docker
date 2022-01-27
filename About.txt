@@ -9,8 +9,12 @@ For mongos Data Base in a container
 https://hub.docker.com/_/mongo-express
 
 
-
+in local file and run code
 docker compose up -d 
 
 For going inside a docker image 
 docker exec -i -t 69aa0e0e1b1f  bash
+
+After going in the folder we can also edit docmst and files as we wanted 
+apt-get update
+apt-get install nano      code editor is install
